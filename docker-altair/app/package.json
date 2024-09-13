@@ -1,0 +1,16 @@
+{
+    "name": "graphql-explorer",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@khulnasoft/altair-express-middleware": "npm:altair-express-middleware@7.3.5",
+      "express": "^4.18.1"
+    }
+  }
