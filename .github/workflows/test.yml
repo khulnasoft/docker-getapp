@@ -26,4 +26,4 @@ jobs:
       - name: Run container structure test
         run: |
           docker build -t getapp-base-test ./docker-base/
-          container-structure-test test --image getapp-base-test --config tests.yaml
+          container-structure-test test --image getapp-base-test --config ./docker-base/tests.yaml
